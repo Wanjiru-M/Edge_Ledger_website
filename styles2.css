@@ -1,0 +1,42 @@
+/*Base styling*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+    color: #333;
+    line-height: 1.8;
+    
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+img{
+    width: 100%;
+}
+p{
+    padding: 10px 0;
+}
+/*Navbar*/
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+}
+.navbar ul{
+    display: flex;
+    padding: 30px;
+}
+.navbar a{
+    padding: 20px 40px;
+}
+.navbar a:hover{
+    background-color: #28a745;
+}
